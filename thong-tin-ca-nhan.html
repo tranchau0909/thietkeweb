@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân</title>
+    <style>
+        /* Căn giữa trang */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        /* Tạo kiểu cho phần tiêu đề */
+        h3 {
+            text-align: center;
+            color: #2c3e50; /* Màu tối cho tiêu đề */
+        }
+        /* Tạo kiểu cho bảng */
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-top: 20px;
+            background-color: #ffffff;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #3498db; /* Màu xanh IT cho đường viền */
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        td {
+            background-color: #f9f9f9;
+        }
+        tr:nth-child(even) td {
+            background-color: #e9f0f7;
+        }
+        /* Hiệu ứng đổi màu khi nhấn chuột */
+        a {
+            color: #3498db; /* Màu xanh dương IT */
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        a:hover {
+            background-color: #3498db;
+            color: white;
+        }
+        a:active {
+            background-color: #2980b9;
+        }
+        a:focus-visible {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h3 id="thong-tin-ca-nhan">Thông tin cá nhân</h3>
+        <table>
+            <tr>
+                <th>MSSV</th>
+                <th>Tên</th>
+                <th>Lớp</th>
+                <th>Ngày sinh</th>
+                <th>Số điện thoại</th>
+                <th>Địa chỉ</th>
+            </tr>
+            <tr>
+                <td>110122189</td>
+                <td>Châu Tuyết Trân</td>
+                <td>DA23TTC</td>
+                <td>06/11/2004</td>
+                <td>0342218606</td>
+                <td>Trà Vinh</td>
+            </tr>
+        </table>
+        <br>
+        <a href="canhan.html" target="_blank">Quay lại trang chính</a>
+		<a href="qua-trinh-hoc-tap.html" target="_blank">Trang tiếp theo</a>
+    </div>
+
+</body>
+</html>
